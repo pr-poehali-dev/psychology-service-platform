@@ -28,13 +28,9 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0 opacity-20">
-          <img 
-            src="/img/97b1904a-7d12-49f2-9672-726a374b1b3a.jpg" 
-            alt="Nature background" 
-            className="w-full h-full object-cover"
-          />
+      <section className="relative py-20 overflow-hidden bg-gradient-to-br from-green-50 to-blue-50">
+        <div className="absolute inset-0 opacity-10">
+          <div className="w-full h-full bg-gradient-to-br from-nature-forest/20 to-nature-sage/20"></div>
         </div>
         <div className="relative container mx-auto px-6 text-center">
           <div className="max-w-4xl mx-auto animate-fade-in">
