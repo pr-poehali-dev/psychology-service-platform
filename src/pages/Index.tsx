@@ -21,7 +21,10 @@ const Index = () => {
             <a href="#features" className="text-gray-600 hover:text-nature-forest transition-colors">Возможности</a>
             <a href="#pricing" className="text-gray-600 hover:text-nature-forest transition-colors">Тарифы</a>
           </nav>
-          <Button className="bg-nature-forest hover:bg-nature-moss">
+          <Button 
+            className="bg-nature-forest hover:bg-nature-moss"
+            onClick={() => window.location.href = '/dashboard'}
+          >
             Войти в кабинет
           </Button>
         </div>
